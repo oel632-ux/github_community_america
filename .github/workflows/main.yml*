@@ -101,7 +101,7 @@ jobs:
         run: pip install psutil pyjwt protobuf-decoder requests pycryptodome urllib3 protobuf
 
       - name: Start Scripts
-        run: python getacc.py &
+        run: python bot.py &
         
       - name: keep alive
         id: check_runs
